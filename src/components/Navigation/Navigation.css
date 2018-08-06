@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(59, 59, 59);
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    color: goldenrod;
+    letter-spacing: 0.2px;
+    border-bottom: 2px solid rgb(29, 233, 233);
+}
+
+.navbar a:active {
+    letter-spacing: 0.4px;
+    color: rgb(235, 182, 50);
+}

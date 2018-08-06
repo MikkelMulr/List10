@@ -1,0 +1,19 @@
+.logoContainer {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: orange;
+    background-color: grey;
+}
+
+.logoContainer h2 {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 34px;
+}
+
+.logoContainer span {
+    color: rgb(29, 233, 233);
+    font-size: 38px;
+}

@@ -1,17 +1,11 @@
 import React from 'react';
 
-// import { List } from './components/List/List';
-// import userLists from './userLists';
-
+import './DisplayList.css';
 
 const DisplayList = (props) => {
     return (
-        <div className="kickass">
-            <div className="listContainer">
-                <ul>
-                    { props.list() }
-                </ul>
-            </div>
+        <div className="DisplayContainer">
+            <p>Hi, this is hard</p>
         </div>
     )
 }

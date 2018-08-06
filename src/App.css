@@ -1,4 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 
-.kickass {
-    color: blue;
+.App {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 100vh;
+    font-family: 'Amatic SC', cursive;
+}
+
+.Logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.Navigation {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.SavedLists {
+    grid-column: 1/ 2;
+    grid-row: 2 / 3;
+}
+
+.DisplayLists {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }

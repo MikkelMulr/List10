@@ -1,3 +1,33 @@
-.listItem {
-    border: 2px solid black;    
-} 
+.SavedListItem {
+    padding: 5px 0;
+    margin: 5px 0;
+    border: 2px solid rgb(75, 75, 75);
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 180px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.SavedListItem:hover {
+    background-color: rgb(167, 167, 167);
+    border: 2px solid goldenrod;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.SavedListItem:active {
+    background-color: rgb(228, 228, 228);
+    color: black;
+    letter-spacing: 2.2px;
+    font-weight: bold;
+}
+
+.ListContainer ul {
+    list-style: none;
+    padding: 30px 10px;
+    margin: 0;
+}

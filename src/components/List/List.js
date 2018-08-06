@@ -77,9 +77,9 @@ const List = () => {
             {
                 userLists.map((user, index) => {
                     return (
-                    <li>
+                    <li className="SavedListItem">
                         {user.listname}
-                        <ul id="itemList" className="">{
+                        {/* <ul id="itemList" className="">{
                             user.list.map((item, index) => {
                                 return (
                                     <li>
@@ -88,7 +88,7 @@ const List = () => {
                                 )
                             })
                         }
-                        </ul>
+                        </ul> */}
                     </li>
                     )
                 })
